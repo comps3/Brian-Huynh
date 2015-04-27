@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F528E8831AEC47DE002AD601 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F528E8821AEC47DE002AD601 /* AudioToolbox.framework */; };
+		F528E8851AEC47ED002AD601 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F528E8841AEC47ED002AD601 /* AVFoundation.framework */; };
+		F528E88E1AEC48E4002AD601 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F528E88A1AEC48E4002AD601 /* AcousticModelEnglish.bundle */; };
+		F528E88F1AEC48E4002AD601 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F528E88B1AEC48E4002AD601 /* AcousticModelSpanish.bundle */; };
+		F528E8901AEC48E4002AD601 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F528E88C1AEC48E4002AD601 /* OpenEars.framework */; };
+		F528E8911AEC48E4002AD601 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F528E88D1AEC48E4002AD601 /* Slt.framework */; };
+		F528E8941AEC4934002AD601 /* SpeechRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = F528E8931AEC4934002AD601 /* SpeechRecognition.m */; };
+		F56EFA7A1AE405DA00D359E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EFA791AE405DA00D359E7 /* AppDelegate.swift */; };
+		F56EFA7C1AE405DA00D359E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EFA7B1AE405DA00D359E7 /* ViewController.swift */; };
+		F56EFA7F1AE405DA00D359E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56EFA7D1AE405DA00D359E7 /* Main.storyboard */; };
+		F56EFA811AE405DA00D359E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56EFA801AE405DA00D359E7 /* Images.xcassets */; };
+		F56EFA841AE405DA00D359E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56EFA821AE405DA00D359E7 /* LaunchScreen.xib */; };
+		F56EFA901AE405DA00D359E7 /* Brian_HuynhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EFA8F1AE405DA00D359E7 /* Brian_HuynhTests.swift */; };
+		F56EFA9E1AE4189C00D359E7 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = F56EFA9D1AE4189C00D359E7 /* profile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F56EFA8A1AE405DA00D359E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56EFA6C1AE405DA00D359E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56EFA731AE405DA00D359E7;
+			remoteInfo = "Brian Huynh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F528E8821AEC47DE002AD601 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F528E8841AEC47ED002AD601 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F528E88A1AEC48E4002AD601 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		F528E88B1AEC48E4002AD601 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		F528E88C1AEC48E4002AD601 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		F528E88D1AEC48E4002AD601 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		F528E8921AEC4933002AD601 /* Brian Huynh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brian Huynh-Bridging-Header.h"; sourceTree = "<group>"; };
+		F528E8931AEC4934002AD601 /* SpeechRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechRecognition.m; sourceTree = "<group>"; };
+		F528E8C71AEC49BD002AD601 /* SpeechRecognition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechRecognition.h; sourceTree = "<group>"; };
+		F56EFA741AE405DA00D359E7 /* Brian Huynh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brian Huynh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56EFA781AE405DA00D359E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56EFA791AE405DA00D359E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F56EFA7B1AE405DA00D359E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F56EFA7E1AE405DA00D359E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F56EFA801AE405DA00D359E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F56EFA831AE405DA00D359E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F56EFA891AE405DA00D359E7 /* Brian HuynhTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brian HuynhTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56EFA8E1AE405DA00D359E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56EFA8F1AE405DA00D359E7 /* Brian_HuynhTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brian_HuynhTests.swift; sourceTree = "<group>"; };
+		F56EFA9D1AE4189C00D359E7 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56EFA711AE405DA00D359E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F528E8911AEC48E4002AD601 /* Slt.framework in Frameworks */,
+				F528E8851AEC47ED002AD601 /* AVFoundation.framework in Frameworks */,
+				F528E8831AEC47DE002AD601 /* AudioToolbox.framework in Frameworks */,
+				F528E8901AEC48E4002AD601 /* OpenEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56EFA861AE405DA00D359E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F528E8861AEC47F5002AD601 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F528E8841AEC47ED002AD601 /* AVFoundation.framework */,
+				F528E8821AEC47DE002AD601 /* AudioToolbox.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		F528E8891AEC48E4002AD601 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F528E88A1AEC48E4002AD601 /* AcousticModelEnglish.bundle */,
+				F528E88B1AEC48E4002AD601 /* AcousticModelSpanish.bundle */,
+				F528E88C1AEC48E4002AD601 /* OpenEars.framework */,
+				F528E88D1AEC48E4002AD601 /* Slt.framework */,
+			);
+			name = Framework;
+			path = ../../Downloads/OpenEarsDistribution/Framework;
+			sourceTree = "<group>";
+		};
+		F56EFA6B1AE405DA00D359E7 = {
+			isa = PBXGroup;
+			children = (
+				F528E8861AEC47F5002AD601 /* Libraries */,
+				F56EFA761AE405DA00D359E7 /* Brian Huynh */,
+				F56EFA8C1AE405DA00D359E7 /* Brian HuynhTests */,
+				F56EFA751AE405DA00D359E7 /* Products */,
+				F528E8891AEC48E4002AD601 /* Framework */,
+				F528E8921AEC4933002AD601 /* Brian Huynh-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		F56EFA751AE405DA00D359E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56EFA741AE405DA00D359E7 /* Brian Huynh.app */,
+				F56EFA891AE405DA00D359E7 /* Brian HuynhTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56EFA761AE405DA00D359E7 /* Brian Huynh */ = {
+			isa = PBXGroup;
+			children = (
+				F528E8C71AEC49BD002AD601 /* SpeechRecognition.h */,
+				F528E8931AEC4934002AD601 /* SpeechRecognition.m */,
+				F56EFA791AE405DA00D359E7 /* AppDelegate.swift */,
+				F56EFA7B1AE405DA00D359E7 /* ViewController.swift */,
+				F56EFA7D1AE405DA00D359E7 /* Main.storyboard */,
+				F56EFA801AE405DA00D359E7 /* Images.xcassets */,
+				F56EFA821AE405DA00D359E7 /* LaunchScreen.xib */,
+				F56EFA771AE405DA00D359E7 /* Supporting Files */,
+			);
+			path = "Brian Huynh";
+			sourceTree = "<group>";
+		};
+		F56EFA771AE405DA00D359E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56EFA9D1AE4189C00D359E7 /* profile.png */,
+				F56EFA781AE405DA00D359E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F56EFA8C1AE405DA00D359E7 /* Brian HuynhTests */ = {
+			isa = PBXGroup;
+			children = (
+				F56EFA8F1AE405DA00D359E7 /* Brian_HuynhTests.swift */,
+				F56EFA8D1AE405DA00D359E7 /* Supporting Files */,
+			);
+			path = "Brian HuynhTests";
+			sourceTree = "<group>";
+		};
+		F56EFA8D1AE405DA00D359E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56EFA8E1AE405DA00D359E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56EFA731AE405DA00D359E7 /* Brian Huynh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56EFA931AE405DA00D359E7 /* Build configuration list for PBXNativeTarget "Brian Huynh" */;
+			buildPhases = (
+				F56EFA701AE405DA00D359E7 /* Sources */,
+				F56EFA711AE405DA00D359E7 /* Frameworks */,
+				F56EFA721AE405DA00D359E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brian Huynh";
+			productName = "Brian Huynh";
+			productReference = F56EFA741AE405DA00D359E7 /* Brian Huynh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F56EFA881AE405DA00D359E7 /* Brian HuynhTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56EFA961AE405DA00D359E7 /* Build configuration list for PBXNativeTarget "Brian HuynhTests" */;
+			buildPhases = (
+				F56EFA851AE405DA00D359E7 /* Sources */,
+				F56EFA861AE405DA00D359E7 /* Frameworks */,
+				F56EFA871AE405DA00D359E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56EFA8B1AE405DA00D359E7 /* PBXTargetDependency */,
+			);
+			name = "Brian HuynhTests";
+			productName = "Brian HuynhTests";
+			productReference = F56EFA891AE405DA00D359E7 /* Brian HuynhTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56EFA6C1AE405DA00D359E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Brian Huynh";
+				TargetAttributes = {
+					F56EFA731AE405DA00D359E7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F56EFA881AE405DA00D359E7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F56EFA731AE405DA00D359E7;
+					};
+				};
+			};
+			buildConfigurationList = F56EFA6F1AE405DA00D359E7 /* Build configuration list for PBXProject "Brian Huynh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56EFA6B1AE405DA00D359E7;
+			productRefGroup = F56EFA751AE405DA00D359E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56EFA731AE405DA00D359E7 /* Brian Huynh */,
+				F56EFA881AE405DA00D359E7 /* Brian HuynhTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56EFA721AE405DA00D359E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EFA7F1AE405DA00D359E7 /* Main.storyboard in Resources */,
+				F528E88F1AEC48E4002AD601 /* AcousticModelSpanish.bundle in Resources */,
+				F56EFA841AE405DA00D359E7 /* LaunchScreen.xib in Resources */,
+				F56EFA9E1AE4189C00D359E7 /* profile.png in Resources */,
+				F528E88E1AEC48E4002AD601 /* AcousticModelEnglish.bundle in Resources */,
+				F56EFA811AE405DA00D359E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56EFA871AE405DA00D359E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56EFA701AE405DA00D359E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EFA7C1AE405DA00D359E7 /* ViewController.swift in Sources */,
+				F56EFA7A1AE405DA00D359E7 /* AppDelegate.swift in Sources */,
+				F528E8941AEC4934002AD601 /* SpeechRecognition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56EFA851AE405DA00D359E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56EFA901AE405DA00D359E7 /* Brian_HuynhTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F56EFA8B1AE405DA00D359E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56EFA731AE405DA00D359E7 /* Brian Huynh */;
+			targetProxy = F56EFA8A1AE405DA00D359E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F56EFA7D1AE405DA00D359E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56EFA7E1AE405DA00D359E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F56EFA821AE405DA00D359E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56EFA831AE405DA00D359E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F56EFA911AE405DA00D359E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F56EFA921AE405DA00D359E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56EFA941AE405DA00D359E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/brianhuynh/Downloads/OpenEarsDistribution/Framework,
+				);
+				INFOPLIST_FILE = "Brian Huynh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Brian Huynh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F56EFA951AE405DA00D359E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/brianhuynh/Downloads/OpenEarsDistribution/Framework,
+				);
+				INFOPLIST_FILE = "Brian Huynh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Brian Huynh-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F56EFA971AE405DA00D359E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Brian HuynhTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brian Huynh.app/Brian Huynh";
+			};
+			name = Debug;
+		};
+		F56EFA981AE405DA00D359E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Brian HuynhTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brian Huynh.app/Brian Huynh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56EFA6F1AE405DA00D359E7 /* Build configuration list for PBXProject "Brian Huynh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56EFA911AE405DA00D359E7 /* Debug */,
+				F56EFA921AE405DA00D359E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56EFA931AE405DA00D359E7 /* Build configuration list for PBXNativeTarget "Brian Huynh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56EFA941AE405DA00D359E7 /* Debug */,
+				F56EFA951AE405DA00D359E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56EFA961AE405DA00D359E7 /* Build configuration list for PBXNativeTarget "Brian HuynhTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56EFA971AE405DA00D359E7 /* Debug */,
+				F56EFA981AE405DA00D359E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F56EFA6C1AE405DA00D359E7 /* Project object */;
+}
